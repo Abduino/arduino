@@ -25,6 +25,19 @@ float altitude_sensor_value=10;
 float altitude_sensor_value_2=10;
 
 
+float Water_level = 10.0,pressure = 10.0, altitudevar = 10.0,rain=10.0;
+void setup() {
+  Serial.begin(9600);
+  pinMode(DHT11_PIN,INPUT);
+  pinMode(moisture_sensor_pin,INPUT);
+  pinMode(light_sensor_pin,INPUT);
+  pinMode(gas_sensor_pin,INPUT);
+  bmp.begin();
+ 
+}
+
+
+
 void loop() 
 {
   Serial.println();
