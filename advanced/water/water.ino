@@ -19,8 +19,5 @@ void loop() {
   {
     noTone(8);
   }
- 
-  
-  // put your main code here, to run repeatedly:
 
 }
